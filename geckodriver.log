@@ -1,0 +1,20 @@
+1649437150105	geckodriver	INFO	Listening on 127.0.0.1:64027
+1649437153146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64028" "-no-remote" "-profile" "C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofileUPQo84"
+*** You are running in headless mode.
+1649437153647	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofileUPQo84\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64028/devtools/browser/54e8c262-c21e-4a96-9e0c-bc2277183a60
+1649437154621	Marionette	INFO	Listening on port 64036
+1649437154673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649437156025	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649437575690	geckodriver	INFO	Listening on 127.0.0.1:59107
+1649437578737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59108" "-no-remote" "-profile" "C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofile7xQc40"
+*** You are running in headless mode.
+1649437579032	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\1\\AppData\\Local\\Temp\\rust_mozprofile7xQc40\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59108/devtools/browser/5c3aa670-62a9-4dcc-983f-c579ba4a78d3
+1649437579980	Marionette	INFO	Listening on port 59114
+1649437580350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649437582511	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
