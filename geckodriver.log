@@ -18,3 +18,72 @@ DevTools listening on ws://localhost:59108/devtools/browser/5c3aa670-62a9-4dcc-9
 1649437579980	Marionette	INFO	Listening on port 59114
 1649437580350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1649437582511	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649502704457	geckodriver	INFO	Listening on 127.0.0.1:50365
+1649502704636	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "50366" "-foreground" "-no-remote" "-profile" "/var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileplIHmN"
+*** You are running in headless mode.
+1649502705507	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileplIHmN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50366/devtools/browser/d4701227-710c-4da1-9114-710e5d3168ff
+1649502707639	Marionette	INFO	Listening on port 50375
+1649502707753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649502709468	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1649512715743	geckodriver	INFO	Listening on 127.0.0.1:50651
+1649512715944	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "50652" "-foreground" "-no-remote" "-profile" "/var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileIf9I0G"
+*** You are running in headless mode.
+1649512716630	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileIf9I0G/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50652/devtools/browser/f1e02eee-28b4-4489-8579-95524c78e0f2
+1649512719595	Marionette	INFO	Listening on port 50660
+1649512719672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649512721610	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649513052467	geckodriver	INFO	Listening on 127.0.0.1:50928
+1649513052493	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "50929" "-foreground" "-no-remote" "-profile" "/var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofilexzZVjE"
+*** You are running in headless mode.
+1649513053067	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofilexzZVjE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50929/devtools/browser/47bf696b-22fa-4078-b5de-27db847cd3d3
+1649513054919	Marionette	INFO	Listening on port 50932
+1649513054975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649513057713	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649514131298	geckodriver	INFO	Listening on 127.0.0.1:51212
+1649514131330	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51213" "-foreground" "-no-remote" "-profile" "/var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofilez4pPqN"
+*** You are running in headless mode.
+1649514132172	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofilez4pPqN/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51213/devtools/browser/01043314-8995-44aa-ba90-3fe62378dff0
+1649514133934	Marionette	INFO	Listening on port 51216
+1649514134032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649514135672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1649514419899	geckodriver	INFO	Listening on 127.0.0.1:51361
+1649514419957	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "51362" "-foreground" "-no-remote" "-profile" "/var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileCM0Jko"
+*** You are running in headless mode.
+1649514420524	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/fn/gwjmnwrn0c18l7vkkzk25kvr0000gn/T/rust_mozprofileCM0Jko/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51362/devtools/browser/2aaeedf1-9040-4b0a-b675-42fbbeed2698
+1649514422253	Marionette	INFO	Listening on port 51365
+1649514422350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649514424077	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.

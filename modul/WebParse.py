@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from pathlib import Path
 import sys
+import os
 
 
 class WebParse:
@@ -17,12 +18,15 @@ class WebParse:
         self.obj_app = obj_app
 
     def start_pars(self):
-        typeOs = sys.platform
-        if typeOs == 'win32' or typeOs == 'cygwin':
-            chromedriver = 'lib\\win32\\geckodriver.exe'
-        elif typeOs == 'darwin':
-            chromedriver = 'lib\\macos\\geckodriver.exe'
-        var = webdriver.Firefox(executable_path=chromedriver, options=self.options())
+        type_os = sys.platform
+
+        if type_os == 'win32' or type_os == 'cygwin':
+            driver = '\\geckodriver.exe'
+        elif type_os == 'darwin':
+            driver = 'lib/macos/geckodriver'
+
+        var = webdriver.Firefox(executable_path=driver, options=self.options())
+
         return var
 
     def options(self):

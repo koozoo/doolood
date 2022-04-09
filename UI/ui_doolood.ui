@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>399</width>
-    <height>373</height>
+    <width>597</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>381</width>
-     <height>151</height>
+     <width>481</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="title">
@@ -28,8 +28,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>110</y>
+      <x>320</x>
+      <y>120</y>
       <width>113</width>
       <height>32</height>
      </rect>
@@ -42,7 +42,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>100</y>
+      <y>110</y>
       <width>111</width>
       <height>39</height>
      </rect>
@@ -67,33 +67,13 @@
      </item>
     </layout>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>10</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>40</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QWidget" name="verticalLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>10</y>
       <width>83</width>
-      <height>80</height>
+      <height>91</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -120,27 +100,66 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="horizontalLayoutWidget">
+   <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>60</y>
-      <width>261</width>
+      <x>110</x>
+      <y>10</y>
+      <width>321</width>
+      <height>97</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>set file path</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>110</y>
+      <width>158</width>
       <height>41</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
-      <widget class="QLineEdit" name="lineEdit_3">
-       <property name="text">
-        <string/>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="minimum">
+        <number>100</number>
+       </property>
+       <property name="maximum">
+        <number>1500</number>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QLabel" name="label_4">
        <property name="text">
-        <string>set file path</string>
+        <string>scroll m/sec</string>
        </property>
       </widget>
      </item>
@@ -151,8 +170,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>340</y>
-     <width>181</width>
+     <y>370</y>
+     <width>261</width>
      <height>23</height>
     </rect>
    </property>
@@ -163,8 +182,8 @@
   <widget class="QLabel" name="progress_bar_text">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>340</y>
+     <x>280</x>
+     <y>370</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -178,8 +197,8 @@
     <rect>
      <x>10</x>
      <y>180</y>
-     <width>381</width>
-     <height>151</height>
+     <width>561</width>
+     <height>181</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -195,10 +214,10 @@
   <widget class="QLabel" name="version_lable">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>340</y>
-     <width>60</width>
-     <height>16</height>
+     <x>440</x>
+     <y>370</y>
+     <width>141</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
